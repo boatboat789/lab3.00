@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>QuizForHomework</title>
+    <link rel="stylesheet" type="text/css" href="geb.css">
+</head>
+<body>
+ 	<div class="grid">
+        <div id="quiz">
+            <h1>QuizForHomework</h1>
+            <h2 id="test_status"></h2>
+
+
+			<div id="test"></div>
+            <div class="buttons">
+                <button id="btn0" onclick="myFunction()">GO 10 QUESTIONS</button>
+                <button id="btn1" onclick="myFunction()" >GO 20 QUESTIONS</button>
+            </div>
+
+        </div>
+        <h2 id="timeleft"></h2>";
+    </div>
+	<script src="jquery-3.3.1.min.js" charset="utf-8"></script>
+	<script src="java.js"></script>
+	<script src="question.js"></script>
+  <script>
+  function myFunction() {
+    document.getElementById("btn0").style.visibility = "hidden";
+      document.getElementById("btn1").style.visibility = "hidden";
+
+}
+</script>
+
+
+</body>
+</html>
